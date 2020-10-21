@@ -1,0 +1,24 @@
+.so1{
+    display: flex;
+    width: 600px;
+}
+.trai{
+    margin-right: 50px;
+    width: 330px;
+}
+.phai{
+    width: 220px;
+    
+}
+img{
+    width: 100%;
+}
+div.so2 h3{
+    color: red;
+}
+div.so3 h3{
+    color: green;
+}
+div.so3 h4{
+    color: hotpink;
+}
