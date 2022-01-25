@@ -1,0 +1,76 @@
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+h1 { padding: 0; }
+img { border: none; }
+.body-content
+{
+	margin-bottom: 50px;
+}
+.other-langs { font-size: 12px; }
+.picture
+{
+	border: 1px solid #E7E5DC;
+	margin-right: 5px;
+}
+.sh-title
+{
+	font-weight: bold;
+	font-family: "Courier New", Courier, monospace;
+	padding: 5px;
+	background-color: #E7E5DC;
+}
+.top-title { width: 100%; line-height: 44px; padding: 0; float: left; }
+#title-left { float: left; margin: 5px; }
+#title-left img { margin-top: -5px; }
+#title-right { float: left; line-height: 12px; padding: 0; }
+#others-lang
+{
+	border: 1px solid #BBB;
+	display: none;
+	top: 50px;
+	left: 50px;
+	width: 300px;
+	position: absolute;
+	z-index: 100;
+	padding-left: 3px;
+	background-color: #CCCCCC;
+	z-index: 10;
+}
+#others-lang span
+{
+	height: 24px;
+	line-height: 24px;
+	width: 70px;
+	padding-left: 25px;
+	display: inline-block;
+}
+
+#others-lang .lang_english
+{
+	background: transparent url(/templates/jsb.V8/images/flags.png) no-repeat left -72px;
+}
+#others-lang .lang_french
+{
+	background: transparent url(/templates/jsb.V8/images/flags.png) no-repeat left -96px;
+}
+#others-lang .lang_vietnamese
+{
+	background: transparent url(/templates/jsb.V8/images/flags.png) no-repeat left -336px;
+}
+
+.dp-highlighter
+{
+	font-family: "Consolas", "Courier New", Courier, mono, serif;
+	font-size: 12px;
+	background-color: #E7E5DC;
+	width: 99%;
+	overflow: auto;
+	margin: -12px 0 18px 0 !important;
+	padding-top: 1px; /* adds a little border on top when controls are hidden */
+}
